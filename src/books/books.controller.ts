@@ -1,8 +1,7 @@
 import { BadRequestException, Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import {BooksService} from './books.service';
-import { CreateBooksDto} from './dto/books.dto'
 import { Books } from './book.entity';
-@Controller('books')
+@Controller('/books')
 export class BooksController {
 
     constructor(private booksService: BooksService){
