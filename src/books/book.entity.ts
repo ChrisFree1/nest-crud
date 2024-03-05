@@ -9,5 +9,5 @@ export class Books{
     nombre_libro: string
     autor_libro: string
     fecha_publicacion: string
-    statusBook: StatusBooks
+    statusBook: StatusBooks.Activo
 }
